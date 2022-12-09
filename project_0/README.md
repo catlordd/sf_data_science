@@ -3,11 +3,11 @@
 
 ## Оглавление 
 + [Описание проекта](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README.md#Описание-проекта)
-+ [Какой кейс решаем?](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README)
-+ [Кароткая информация о данных](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README)
-+ [Этапы работы над проектом](https://github.com/catlordd/sf_data_scaince/tree/main/project_0#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
-+ [Результат](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README)
-+ [Выводы](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README)
++ [Какой кейс решаем?](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README.md#Какой-кейс-решаем?)
++ [Кароткая информация о данных](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README.md#Кароткая-информация-о-данных)
++ [Этапы работы над проектом](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README.md#Этапы-работы-над-проектом)
++ [Результат](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README.md#Результат)
++ [Выводы](https://github.com/catlordd/sf_data_scaince/blob/main/project_0/README.md#Выводы)
 
 
 ### Описание-проекта 
