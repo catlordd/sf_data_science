@@ -11,21 +11,23 @@ def random_predict(number:int=1) -> int:
     """
 
     count = 0
-    max_number = 100
-    min_number = 0
+    max_number = 100 # Максимальное значение для бинарный поиска
+    min_number = 0 # Минимальное значение для бинарный поиск
     predict_number = int(max_number+min_number) / 2
 
     while True:
         count += 1
         #predict_number = np.random.randint(1, 101) # предполагаемое число
-        
+        # Алгоритм бинарный поиска
         if number == predict_number:
             break # выход из цикла, если угадали
         elif number > predict_number:
-            min_number = predict_number
+            if min_number == predict_number and min_number == 99:
+                break # выход из цикла, если угадали 
+            min_number = predict_number 
         elif number < predict_number:
             max_number = predict_number
-        predict_number = int(max_number+min_number) / 2
+        predict_number = int((max_number+min_number) / 2)
         
     return(count)
 
@@ -54,7 +56,7 @@ def score_game(random_predict) -> int:
     print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
     return(score)
 
-print(score_game(random_predict))
+
 # RUN
-"""if __name__ == '__main__':
-    print(score_game(random_predict))"""
+if __name__ == '__main__':
+    print(score_game(random_predict))
