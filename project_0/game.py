@@ -1,4 +1,4 @@
-import numpy as np
+"""import numpy as np
 
 numder = np.random.randint(1, 100) # it's propose number
 count = 0 # count tries
@@ -13,5 +13,5 @@ while True:
         print("Чисто должно быть больше")
     else:
         print(f"Вы угадали число! Это: {numder}. Число затраченных попыток: {count}")
-        break
+        break"""
     

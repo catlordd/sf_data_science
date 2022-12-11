@@ -11,15 +11,25 @@ def random_predict(number:int=1) -> int:
     """
 
     count = 0
+    max_number = 100
+    min_number = 0
+    predict_number = int(max_number+min_number) / 2
 
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+        #predict_number = np.random.randint(1, 101) # предполагаемое число
+        
         if number == predict_number:
             break # выход из цикла, если угадали
+        elif number > predict_number:
+            min_number = predict_number
+        elif number < predict_number:
+            max_number = predict_number
+        predict_number = int(max_number+min_number) / 2
+        
     return(count)
 
-print(f'Количество попыток: {random_predict()}')
+#print(f'Количество попыток: {random_predict()}')
 
 
 def score_game(random_predict) -> int:
@@ -47,4 +57,4 @@ def score_game(random_predict) -> int:
 
 # RUN
 if __name__ == '__main__':
-    score_game(random_predict)
+    print(score_game(random_predict))
