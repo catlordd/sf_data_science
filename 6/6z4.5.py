@@ -16,12 +16,17 @@
 # но без использования рекурсии.
 
 def fib_number(n):
-    if n == 1 or n == 0:
-        n = 1
-        return n
-
-    return fib_number(n-1) + fib_number(n-2)
-
-print(fib_number(0))
-print(fib_number(1))
-print(fib_number(2))
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        f1 = 0
+        f2 = 1
+        for i in range(n):
+            i += 1
+            tmp = f1
+            f1 = f1 + f2
+            f2 = tmp
+        return f1
+fib_number(7)
